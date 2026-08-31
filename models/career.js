@@ -32,12 +32,6 @@ const careerSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-
-    github: {
-      type: String,
-      required: true,
-      trim: true,
-    },
   },
   {
     timestamps: true,

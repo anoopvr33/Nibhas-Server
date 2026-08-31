@@ -24,6 +24,8 @@ router.post("/", async (req, res) => {
       github,
     } = req.body;
 
+    console.log("github link", github);
+
     // VALIDATION
 
     if (!jobId || !name || !phone || !email || !experience || !qualification) {

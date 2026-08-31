@@ -43,6 +43,11 @@ const jobApplicationSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    github: {
+      type: String,
+      required: true,
+      trim: true,
+    },
 
     message: {
       type: String,
