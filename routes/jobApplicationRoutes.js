@@ -21,6 +21,7 @@ router.post("/", async (req, res) => {
       qualification,
       location,
       message,
+      github,
     } = req.body;
 
     // VALIDATION
@@ -35,20 +36,14 @@ router.post("/", async (req, res) => {
 
     const application = await JobApplication.create({
       jobId,
-
       name,
-
       phone,
-
       email,
-
       experience,
-
       qualification,
-
       location,
-
       message,
+      github,
     });
 
     res.status(201).json({

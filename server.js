@@ -31,6 +31,7 @@ const app = express();
 const allowedOrigins = [
   "https://admin.nibhashrdsolutions.com",
   "https://nibhashrdsolutions.com",
+  "https://www.nibhashrdsolutions.com",
   "http://127.0.0.1:5500",
   "http://localhost:5500",
   "http://localhost:3000",

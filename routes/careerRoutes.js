@@ -57,6 +57,7 @@ router.post("/", async (req, res) => {
       location,
       type,
       experience,
+      
     });
 
     res.status(201).json(job);
